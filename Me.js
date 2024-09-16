@@ -115,14 +115,12 @@ function Me() {
               <Icon2 name='asterisk' color={'black'} size={15}/>
             </View>
 
-            : <Text style={{fontSize:18,color:'black',marginTop:5,marginLeft:5}}><Icon5 name='naira-sign' size={18} color={'black'}/> 20,950,300</Text>}
+            : <Text style={{fontSize:19,color:'black',marginTop:5,marginLeft:5}}><Icon5 name='naira-sign' size={18} color={'black'}/> 20,950,300</Text>}
             
              
           </View>
 
-          <View style={{height:20,width:100, backgroundColor:'green'}}> 
-              <Text>hello</Text>
-             </View>
+          
 
 
           
