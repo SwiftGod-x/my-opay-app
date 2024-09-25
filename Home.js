@@ -169,7 +169,7 @@ const Home =()=>{
                             </TouchableOpacity>
 
                         </View>
-                        <Text  style={{paddingTop:15, fontSize:12}}>To Opay</Text>
+                        <Text  style={{paddingTop:50, fontSize:12}}>To Opay</Text>
                     </View>
 
 
@@ -500,9 +500,8 @@ const Styles = StyleSheet.create({
         margin:17,
         paddingTop:10,
         borderRadius:10,
-        rowGap:10,
+        rowGap:20,
         marginTop:0,
-        // gap:30
     },
 
     betting1:{

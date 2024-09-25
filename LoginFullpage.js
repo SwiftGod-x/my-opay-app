@@ -73,8 +73,8 @@ function LoginFullpage() {
             <View style={{flexDirection:'row',gap:20,marginTop:5}}>
 
                 <TouchableOpacity>
-                    <View style={{width:25,height:15,paddingLeft:4,borderRadius:10,position:'absolute',top:-10,left:10,backgroundColor:'#fcacd3'}}>
-                        <Text style={{color:'red'}}>HELP</Text>
+                    <View style={{width:28,height:15,paddingLeft:4,borderRadius:10,position:'absolute',top:-10,left:10,backgroundColor:'#fcacd3'}}>
+                        <Text style={{color:'red',fontSize:9,paddingTop:2,fontWeight:800}}>HELP</Text>
                     </View>
                     <Icon3 name = 'headset-mic' size = {20}/>
                 </TouchableOpacity>
@@ -114,7 +114,7 @@ function LoginFullpage() {
                 <View style={{display:'flex',flexDirection:'row',marginTop:10,marginLeft:20}}>
 
                     <TouchableOpacity onPress={Loginpage} activeOpacity={0.7}>
-                        <Text style={{fontSize:15,color:'white',marginLeft:45}}>Transaction History </Text>
+                        <Text style={{fontSize:15,color:'white',marginLeft:30}}>Transaction History </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity activeOpacity={0.7}>
@@ -160,35 +160,35 @@ function LoginFullpage() {
             <View>
                 <View style={{backgroundColor:'whitesmoke',width:30,height:30,justifyContent:'center',paddingLeft:5,borderRadius:7}}>
 
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={Loginpage}>
                         <Icon3 name='perm-contact-calendar' size={20} color={'#00ab6b'}/>
                     </TouchableOpacity>
 
                 </View>
-                <Text  style={{paddingTop:15}}>To Opay</Text>
+                <Text  style={{addingTop:15, fontSize:12}}>To Opay</Text>
             </View>
 
 
             <View>
                <View style={{backgroundColor:'whitesmoke',width:30,height:30,justifyContent:'center',paddingLeft:5,borderRadius:7}}>
 
-                   <TouchableOpacity>
+                   <TouchableOpacity onPress={Loginpage}>
                        <Icon2 name='bank-outline' size={20} color={'#00ab6b'}/>
                     </TouchableOpacity>
 
                </View>
-               <Text style={{paddingTop:15}}>To Bank</Text>
+               <Text style={{paddingTop:15, fontSize:12}}>To Bank</Text>
             </View>
 
             <View>
                <View style={{backgroundColor:'whitesmoke',width:30,height:30,justifyContent:'center',paddingLeft:5,borderRadius:7}}>
                
-                   <TouchableOpacity>
+                   <TouchableOpacity onPress={Loginpage}>
                     <Icon2 name='arrow-expand' size={20} color={'#00ab6b'}/>
                    </TouchableOpacity>
 
                </View>
-               <Text style={{paddingTop:15, margin:-3}}>Withdraw</Text>
+               <Text style={{paddingTop:15, fontSize:12, margin:-3}}>Withdraw</Text>
             </View>
 
         </View>
@@ -202,13 +202,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                 <Icon2 name='cellphone-nfc' size={20} color={'#00ab6b'}/>
                             </TouchableOpacity>
 
                         </View>
 
-                        <Text style={{paddingTop:5,flexWrap:'nowrap'}}>Airtime</Text>
+                        <Text style={{paddingTop:5,flexWrap:'nowrap', fontSize:12}}>Airtime</Text>
 
                     </View>
 
@@ -217,13 +217,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                 <Icon2 name='cellphone-wireless' size={20} color={'#00ab6b'}/>
                             </TouchableOpacity>
 
                         </View>
 
-                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:5}}>Data</Text>
+                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:5, fontSize:12}}>Data</Text>
 
                     </View>
 
@@ -233,13 +233,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon3 name='sports-soccer' size={20} color={'#00ab6b'}/>
                             </TouchableOpacity>
 
                         </View>
 
-                       <Text style={{paddingTop:5,flexWrap:'nowrap'}}>Betting</Text>
+                       <Text style={{paddingTop:5,flexWrap:'nowrap', fontSize:12}}>Betting</Text>
 
                     </View>
 
@@ -248,13 +248,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon3 name='connected-tv' size={20} color={'#00ab6b'}/>
                             </TouchableOpacity>
 
                         </View>
 
-                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:10}}>TV</Text>
+                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:10, fontSize:12}}>TV</Text>
 
                     </View>
 
@@ -267,13 +267,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon2 name='piggy-bank' size={20} color={'#00ab6b'}/>
                             </TouchableOpacity>
 
                         </View>
 
-                        <Text style={{paddingTop:5,flexWrap:'nowrap'}}>OWealth</Text>
+                        <Text style={{paddingTop:5,flexWrap:'nowrap',fontSize:12}}>OWealth</Text>
 
                     </View>
 
@@ -282,13 +282,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon3 name='monetization-on' size={20} color={'#00ab6b'}/>
                            </TouchableOpacity>
 
                         </View>
 
-                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:8}}>Loan</Text>
+                        <Text style={{paddingTop:5,flexWrap:'nowrap',paddingLeft:8, fontSize:12}}>Loan</Text>
 
                     </View>
 
@@ -296,13 +296,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,marginLeft:5,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon6 name='donate' size={20} color={'#00ab6b'}/>
                            </TouchableOpacity>
 
                         </View>
 
-                       <Text style={{paddingTop:5,flexWrap:'nowrap',marginRight:5}}>Play4aChild</Text>
+                       <Text style={{paddingTop:5,flexWrap:'nowrap',marginRight:5, fontSize:12}}>Play4aChild</Text>
 
                     </View>
 
@@ -310,13 +310,13 @@ function LoginFullpage() {
 
                         <View style={{backgroundColor:'whitesmoke',width:35,height:35,justifyContent:'center',paddingLeft:8,borderRadius:50}}>
 
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={Loginpage}>
                                <Icon2 name='hexagon-multiple' size={20}  color={'#00ab6b'}/>
                            </TouchableOpacity>
 
                         </View>
 
-                       <Text style={{paddingTop:5,flexWrap:'nowrap',marginLeft:9}}>More</Text>
+                       <Text style={{paddingTop:5,flexWrap:'nowrap',marginLeft:9, fontSize:12}}>More</Text>
                        
                     </View>
 

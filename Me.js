@@ -52,6 +52,7 @@ function Me() {
       <StatusBar backgroundColor={'grey'}/>
 
         <SafeAreaView style={{}}>
+          <View style={{backgroundColor:'#96dbb8'}}>
 
           <View style={{flexDirection:'row',gap:10,marginTop:20,marginLeft:7}}>
 
@@ -118,6 +119,11 @@ function Me() {
             : <Text style={{fontSize:19,color:'black',marginTop:5,marginLeft:5}}><Icon5 name='naira-sign' size={18} color={'black'}/> 20,950,300</Text>}
             
              
+          </View>
+
+          <View>
+            <Text>& Cashback </Text>
+          </View>
           </View>
 
           
