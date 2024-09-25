@@ -41,7 +41,7 @@ function LoginFullpage() {
 
     <View style={{flex:1, backgroundColor:'whitesmoke'}}>
 
-    <StatusBar backgroundColor={'grey'}/>
+    <StatusBar translucent={true} backgroundColor={'transparent'} color={'black'}/>
 
     <SafeAreaView style={{flex:1,}}>
 
